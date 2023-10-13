@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Lato:wght@300;400&family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', cursive;
+    font-weight: 400;
+}
+
+/* body{
+    background: url("b1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.sh{
+    color: orange;
+    text-shadow: 0px 0px 10px orange;
+}
+
+.container1{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5vh;
+    box-shadow: 10px 10px 10px rebeccapurple,
+    -10px -10px 10px grey;
+}
+
+section#s1{
+    width: 60%;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+#s1 h2{
+    font-size: 40px;
+    margin: 10px 0px;
+    color:rgb(143, 101, 186);
+}
+
+#s1 h5{
+    font-size: 30px;
+}
+
+#signin{
+    width: 70%;
+    margin: 30px auto;
+}
+
+#signin input{
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    border: 0px;
+    outline: none;
+    width: 100%;
+    margin: 10px 0px;
+    border-bottom: 2px solid rebeccapurple;
+    border-radius: 10px;
+    background-color: rgba(229, 204, 252, 0.2);
+    color: rebeccapurple;
+}
+
+#signin input::placeholder{
+    color: gray;
+}
+
+#signin .sipass{
+    position: relative;
+    width: 100%;
+}
+
+#s1 #si-show{
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+    cursor: pointer;
+}
+
+#si-submit{
+    margin-top: 30px;
+    background-color: rgb(143, 101, 186);
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rebeccapurple;
+    transition: 0.3s ease-in-out;
+}
+
+#si-submit:hover{
+    background-color: #fff;
+    color: rebeccapurple;
+    box-shadow: 0px 0px 20px rebeccapurple;
+}
+
+section#s2{
+    background: url(si.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+#s2 h3{
+    font-size: 40px;
+    margin: 30px 0px;
+}
+
+#s2 p{
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+#s2 .btn{
+    margin-top: 30px;
+    background: rgba(0,0,0,0.1);
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+#s2 .btn:hover{
+    background-color:#fff;
+    color: rebeccapurple;
+    box-shadow: 0px 0px 50px #fff;
+}
+
+.container2{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+    margin: 5vh;
+    box-shadow: 10px 10px 10px rebeccapurple,
+    -10px -10px 10px grey;
+}
+
+section#s21{
+    width: 60%;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+#s21 h2{
+    font-size: 40px;
+    margin: 10px 0px;
+    color:rgb(143, 101, 186);
+}
+
+#s21 h5{
+    font-size: 30px;
+}
+
+#signup{
+    width: 70%;
+    margin: 30px auto;
+}
+
+#signup input{
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    border: 0px;
+    outline: none;
+    width: 100%;
+    margin: 10px 0px;
+    border-bottom: 2px solid rebeccapurple;
+    border-radius: 10px;
+    background-color: rgba(229, 204, 252, 0.2);
+    color: rebeccapurple;
+}
+
+#signup input::placeholder{
+    color: gray;
+}
+
+#signup .supass{
+    position: relative;
+    width: 100%;
+}
+
+#s21 #su-show{
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+    cursor: pointer;
+}
+
+#su-submit{
+    margin-top: 30px;
+    background-color: rgb(143, 101, 186);
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rebeccapurple;
+    transition: 0.3s ease-in-out;
+}
+
+#su-submit:hover{
+    background-color: #fff;
+    color: rebeccapurple;
+    box-shadow: 0px 0px 20px rebeccapurple;
+}
+
+section#s22{
+    background: url(si.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+#s22 h3{
+    font-size: 40px;
+    margin: 30px 0px;
+}
+
+#s22 p{
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+#s22 .btn{
+    margin-top: 30px;
+    background: rgba(0,0,0,0.1);
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+#s22 .btn:hover{
+    background-color: #fff;
+    color: rebeccapurple;
+    box-shadow: 0px 0px 50px #fff;
+}
+
+.left1{
+    transform: translateX(-150%);
+    animation: lt1 0.7s linear forwards;
+}
+
+@keyframes lt1{
+    0%{
+        transform: translateX(-0%);
+    }
+    50%{
+        transform: translateX(-75%);
+    }
+    100%{
+        transform: translateX(-150%);
+    }
+}
+
+.right1{
+    transform: translateX(68%);
+    animation: rt1 0.7s linear forwards;
+}
+
+@keyframes rt1{
+    0%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(34%);
+    }
+    100%{
+        transform: translateX(68%);
+    }
+}
+
+.right2{
+    transform: translateX(150%);
+    animation: rt2 0.7s linear forwards;
+}
+
+@keyframes rt2{
+    0%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(75%);
+    }
+    100%{
+        transform: translateX(150%);
+    }
+}
+
+.left2{
+    transform: translateX(-68%);
+    animation: lt2 0.7s linear forwards;
+}
+
+@keyframes lt2{
+    0%{
+        transform: translateX(-0%);
+    }
+    50%{
+        transform: translateX(-34%);
+    }
+    100%{
+        transform: translateX(-68%);
+    }
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 750px){
+    body{
+        background: url("mw.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .container1{
+        flex-direction: column-reverse;
+        height: 120vh;
+    }
+    .container2{
+        flex-direction: column;
+        height: 120vh;
+    }
+    section#s1, section#s2, section#s21, section#s22{
+        width: 100%;
+        height: 50%;
+    }
+
+    section#s2{
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    section#s22{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .left1{
+        transform: translateY(-100%);
+        animation: lt1 0.7s linear forwards;
+    }
+    
+    @keyframes lt1{
+        0%{
+            transform: translateY(-0%);
+        }
+        50%{
+            transform: translateY(-50%);
+        }
+        100%{
+            transform: translateY(-100%);
+        }
+    }
+    
+    .right1{
+        transform: translateY(100%);
+        animation: rt1 0.7s linear forwards;
+    }
+    
+    @keyframes rt1{
+        0%{
+            transform: translateY(0%);
+        }
+        50%{
+            transform: translateY(50%);
+        }
+        100%{
+            transform: translateY(100%);
+        }
+    }
+    
+    .right2{
+        transform: translateY(100%);
+        animation: rt2 0.7s linear forwards;
+    }
+    
+    @keyframes rt2{
+        0%{
+            transform: translateY(0%);
+        }
+        50%{
+            transform: translateY(50%);
+        }
+        100%{
+            transform: translateY(100%);
+        }
+    }
+    
+    .left2{
+        transform: translateY(-100%);
+        animation: lt2 0.7s linear forwards;
+    }
+    
+    @keyframes lt2{
+        0%{
+            transform: translateY(-0%);
+        }
+        50%{
+            transform: translateY(-50%);
+        }
+        100%{
+            transform: translateY(-100%);
+        }
+    }
+
+    .row-reverse{
+        flex-direction: column-reverse;
+    }
+}
